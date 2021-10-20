@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>starwars_fetch</title>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="image-logo"></div>
+      <button class="btn btn-primary" onclick="openModal('people')">
+        Pessoas
+      </button>
+      <button class="btn btn-primary" onclick="openModal('films')">
+        filmes
+      </button>
+      <button class="btn btn-primary" onclick="openModal('starships')">
+        Naves
+      </button>
+      <button class="btn btn-primary" onclick="openModal('planets')">
+        Planetas
+      </button>
+    </header>
+    <section>
+      <div class="container">
+        <p  class="texto"id="resultText"></p>
+      </div>
+      <!-- <button class="btn btn-fechar" onclick="closeModal()">fechar</button> -->
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>

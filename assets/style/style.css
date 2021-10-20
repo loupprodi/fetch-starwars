@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-image: url('/assets/img/deathstar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header {
+  background: linear-gradient(
+    to right,
+    rgb(22, 21, 21),
+    rgba(38, 36, 36, 0.604) 50%,
+    rgba(70, 66, 66, 0.96) 75%,
+    rgba(34, 30, 30, 0.68) 75%
+  );
+  border: 3px solid;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.426);
+  height: 80px;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, 0.57);
+  color: white;
+  width: 5em;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  margin: 50px 150px;
+  height: 400px;
+  color: beige;
+  border-radius: 10px;
+}
+#resultText {
+  color: rgb(252, 251, 246);
+  background-color: rgba(92, 89, 244, 0.295);
+  padding: 2em;
+  margin: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.texto {
+  display: none;
+}
